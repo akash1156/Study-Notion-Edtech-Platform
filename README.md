@@ -15,3 +15,39 @@ This project is intended as a learning tool and can be used as a sample project 
 - **Search Functionality:** Built-in search feature to easily find courses, lessons, and resources.
 - **Instructor Dashboard:** Comprehensive dashboard for instructors to view information about their courses, students, and income. Includes charts and visualizations for monitoring course performance and income.
 
+## Important
+
+- **Backend Directory:** The backend code is located in the `server` folder.
+- **Categories Setup:** Before uploading courses, create categories (e.g., web dev, Python). Create categories by signing up as an Admin. To become an Admin, sign up as a student or instructor, then change the `accountType` to `Admin` in the database under the users model.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
+2. **Install Required Packages**
+   Navigate to the project directory and install the required packages:
+
+   ```bash
+   cd Study-Notion-master
+   npm install
+
+  Then, navigate to the server directory and install the server-side packages:
+  
+    ```bash
+         cd server
+         npm install
+
+
+3. **Set Up Environment Variables**
+
+   - Create `.env` files in both the root directory and the `/server` directory.
+   - Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations.
+   - Check the `.env.example` files in each directory for more information on the required variables.
+
+
+
+
+
