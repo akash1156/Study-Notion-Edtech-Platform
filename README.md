@@ -30,13 +30,13 @@ This project is intended as a learning tool and can be used as a sample project 
 2. **Install Required Packages**
    Navigate to the project directory and install the required packages:
 
-   ```bash
-   cd Study-Notion-master
-   npm install
+     ```bash
+         cd Study-Notion-master
+         npm install
 
-  Then, navigate to the server directory and install the server-side packages:
+ Then, navigate to the server directory and install the server-side packages:
   
-    ```bash
+    ````bash
          cd server
          npm install
 
@@ -46,6 +46,12 @@ This project is intended as a learning tool and can be used as a sample project 
    - Create `.env` files in both the root directory and the `/server` directory.
    - Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations.
    - Check the `.env.example` files in each directory for more information on the required variables.
+  
+4. **Start the development server.**
+
+      ```bash
+      npm run dev
+5.  Open the project in your browser at http://localhost:3000 to view your project.
 
 
 
